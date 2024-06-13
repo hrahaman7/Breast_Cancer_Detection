@@ -15,20 +15,17 @@ streamlit
 joblib
 Install dependencies using:
 
-bash
-Copy code
+
 pip install pandas streamlit joblib
 Usage
 Clone the repository:
 
-bash
-Copy code
+
 git clone https://github.com/hrahaman7/Breast_Cancer_Detection.git
 cd breast-cancer-detection
 Run the Streamlit app:
 
-bash
-Copy code
+
 streamlit run app.py
 Upload CSV file:
 
@@ -42,11 +39,11 @@ Download Predictions:
 
 After viewing predictions, download the results as a CSV file using the provided button.
 Files Included
-app.py: Streamlit application code for breast cancer prediction.
-best_model.pkl: Serialized machine learning model (Random Forest or other classifier).
-automl_tpot.py: Script for automated machine learning (optional).
+###app.py: Streamlit application code for breast cancer prediction.
+###best_model.pkl: Serialized machine learning model (Random Forest or other classifier).
+###automl_tpot.py: Script for automated machine learning (optional).
 Additional Notes
-Ensure the CSV file uploaded contains columns with the following names: radius_mean, texture_mean, perimeter_mean, area_mean, smoothness_mean, compactness_mean, concavity_mean, concave points_mean, symmetry_mean, fractal_dimension_mean, radius_se, texture_se, perimeter_se, area_se, smoothness_se, compactness_se, concavity_se, concave points_se, symmetry_se, fractal_dimension_se, radius_worst, texture_worst, perimeter_worst, area_worst, smoothness_worst, compactness_worst, concavity_worst, concave points_worst, symmetry_worst, fractal_dimension_worst.
-The model used in this project can be customized or replaced with other machine learning classifiers as per requirements.
+###Ensure the CSV file uploaded contains columns with the following names: radius_mean, texture_mean, perimeter_mean, area_mean, smoothness_mean, compactness_mean, concavity_mean, concave points_mean, symmetry_mean, fractal_dimension_mean, radius_se, texture_se, perimeter_se, area_se, smoothness_se, compactness_se, concavity_se, concave points_se, symmetry_se, fractal_dimension_se, radius_worst, texture_worst, perimeter_worst, area_worst, smoothness_worst, compactness_worst, concavity_worst, concave points_worst, symmetry_worst, fractal_dimension_worst.
+###The model used in this project can be customized or replaced with other machine learning classifiers as per requirements.
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
