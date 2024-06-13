@@ -23,7 +23,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/your_username/breast-cancer-detection.git
+git clone https://github.com/hrahaman7/Breast_Cancer_Detection.git
 cd breast-cancer-detection
 Run the Streamlit app:
 
